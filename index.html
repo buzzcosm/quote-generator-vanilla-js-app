@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Generator</title>
+  <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/97390468?s=400&u=76b1b589f6a33011bba11c89aaa013142066bffe&v=4">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="quote-container" id="quote-container">
+    <!-- Quote -->
+    <div class="quote-text">
+      <i class="fas fa-quote-left"></i>
+      <span id="quote">The only people who never fail are those who never try.</span>
+    </div>
+    <!-- Author -->
+    <div class="quote-author">
+      <span id="author">Ilka Chase</span>
+    </div>
+    <!-- Buttons -->
+    <div class="button-container">
+      <button class="twitter-button unselectable" id="twitter" title="Tweet This!">
+        <i class="fab fa-twitter"></i>
+      </button>
+      <button class="unselectable" id="new-quote">New Quote</button>
+    </div>
+  </div>
+  <!-- Spinner Loader -->
+  <div class="loader" id="loader" hidden></div>
+  <!-- Script -->
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+
+</html>
