@@ -43,7 +43,8 @@ async function renderQuote() {
 }
 
 function tweetQuote() {
-  const twitterUrl = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent}`;
+  const tweet = `${quoteText.textContent} - ${authorText.textContent}`;
+  const twitterUrl = utils.getTwitterUrl(tweet);
   window.open(twitterUrl, '_blank');
 }
 
