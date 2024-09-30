@@ -26,7 +26,9 @@ Programming in `vanilla js`
 └── index.html
 ```
 
-### Used APIs for learning and testing purposes
+### Quotes APIs
+
+Used REST-APIs and local data for learning and testing purposes
 
 - `jacintodesign-api-quotes.js` => original exercice
 - `dummyjson-api-quotes` => found on [Free Fake REST API for Placeholder JSON Data](https://dummyjson.com/)
