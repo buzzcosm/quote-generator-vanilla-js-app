@@ -1,4 +1,4 @@
-export async function getLocalQuotes() {
+export async function getLocalApiQuotes() {
   // return EnterpreneurQuotes;
   return EnterpreneurQuotes.map(quoteObj => ({
     text: quoteObj.quote,

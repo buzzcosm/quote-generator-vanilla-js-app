@@ -19,6 +19,6 @@ export async function getDummyjsonApiQuotes() {
       author: quoteObj.author
     }));
   } catch (error) {
-    console.log('Whoops, no quote', error.message);
+    console.log(error);
   }
 }

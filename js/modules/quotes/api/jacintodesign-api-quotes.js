@@ -3,8 +3,11 @@ export async function getJacintodesignApiQuotes() {
   try {
     const response = await fetch(apiURL);
     const data = await response.json();
-    return data;
+    return data.map(quoteObj => ({
+      text: quoteObj.text,
+      author: quoteObj.author
+    }));
   } catch (error) {
-    console.log('Whoops, no quote', error.message);
+    console.log(error);
   }
 }
